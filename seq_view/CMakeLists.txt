@@ -17,7 +17,7 @@ target_sources(${PROJECT_NAME}
 
 install(
     TARGETS ${PROJECT_NAME}
-    EXPORT "SeqViewTargets"
+    EXPORT "seq_viewTargets"
     FILE_SET headers
     DESTINATION "include"
     ARCHIVE DESTINATION "lib")

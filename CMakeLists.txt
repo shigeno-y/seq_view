@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.23)
-project(SeqView)
+project(seq_view)
 
 add_subdirectory(seq_view)
 
