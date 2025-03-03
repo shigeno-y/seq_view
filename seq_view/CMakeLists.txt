@@ -15,4 +15,9 @@ target_sources(${PROJECT_NAME}
         include/seq_view.hpp
 )
 
-install(TARGETS ${PROJECT_NAME} FILE_SET headers)
+install(
+    TARGETS ${PROJECT_NAME}
+    EXPORT "SeqViewTargets"
+    FILE_SET headers
+    DESTINATION "include"
+    ARCHIVE DESTINATION "lib")
